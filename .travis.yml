@@ -23,8 +23,6 @@ matrix:
         - ln -s "/c/Python37/python.exe" "/c/Python37/python3.exe"
         - export PATH="/c/Python37:/c/Python37/Scripts/:$PATH"
 
-install:
-  - python3 setup.py install
-
 script:
+  - python3 setup.py install
   - python3 setup.py test

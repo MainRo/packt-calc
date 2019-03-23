@@ -1,13 +1,4 @@
-test-py36:
-  stage: test
-  image: python:3.6
-  script:
-    - python3 setup.py install
-    - python3 setup.py test
-
-test-py37:
-  stage: test
-  image: python:3.7
-  script:
-    - python3 setup.py install
-    - python3 setup.py test
+stage: test
+image: python:3.6
+script:
+  - python3 setup.py install

@@ -1,4 +1,7 @@
-stage: test
-image: python:3.6
-script:
-  - python3 setup.py install
+test:
+  stage: test
+  image: python:3.6
+  script:
+    - python3 setup.py install
+    # - python3 setup.py test
+

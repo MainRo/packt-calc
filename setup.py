@@ -39,7 +39,7 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/PacktPublishing/Migrating-from-Python-2-to-Python-3/chapter08/packt-calc',
-    version='0.1.1',
+    version='0.1.2',
     zip_safe=True,
     entry_points={
         'console_scripts': ['packt-calc=packt_calc.cli:main'],
